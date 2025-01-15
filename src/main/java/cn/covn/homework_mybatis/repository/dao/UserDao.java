@@ -1,6 +1,6 @@
-package cn.covn.homework_mybatis.dao;
+package cn.covn.homework_mybatis.repository.dao;
 
-import cn.covn.homework_mybatis.pojo.entity.User;
+import cn.covn.homework_mybatis.model.pojo.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

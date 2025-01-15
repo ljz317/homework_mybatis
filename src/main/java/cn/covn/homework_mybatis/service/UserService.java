@@ -1,7 +1,7 @@
 package cn.covn.homework_mybatis.service;
 
-import cn.covn.homework_mybatis.dao.UserDao;
-import cn.covn.homework_mybatis.pojo.entity.User;
+import cn.covn.homework_mybatis.repository.dao.UserDao;
+import cn.covn.homework_mybatis.model.pojo.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

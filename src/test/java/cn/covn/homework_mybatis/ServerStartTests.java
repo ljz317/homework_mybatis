@@ -1,16 +1,16 @@
 package cn.covn.homework_mybatis;
 
-import cn.covn.homework_mybatis.dao.StudentDao;
-import cn.covn.homework_mybatis.dao.TeacherDao;
-import cn.covn.homework_mybatis.dao.UserDao;
-import cn.covn.homework_mybatis.pojo.entity.User;
-import cn.covn.homework_mybatis.pojo.vo.Score;
+import cn.covn.homework_mybatis.repository.dao.StudentDao;
+import cn.covn.homework_mybatis.repository.dao.TeacherDao;
+import cn.covn.homework_mybatis.repository.dao.UserDao;
+import cn.covn.homework_mybatis.model.pojo.entity.User;
+import cn.covn.homework_mybatis.model.pojo.vo.Score;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HomeworkMybatisApplicationTests {
+class ServerStartTests {
 
     @Autowired
     UserDao userDao;

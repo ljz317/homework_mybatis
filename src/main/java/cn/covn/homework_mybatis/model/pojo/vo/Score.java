@@ -1,4 +1,4 @@
-package cn.covn.homework_mybatis.pojo.vo;
+package cn.covn.homework_mybatis.model.pojo.vo;
 
 public class Score {
     private Double chinese;

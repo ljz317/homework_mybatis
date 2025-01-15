@@ -2,15 +2,15 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.covn.homework_mybatis.dao.StudentDao">
+<mapper namespace="cn.covn.homework_mybatis.repository.dao.StudentDao">
     <select id="FindAllStudent" resultType="String">
         select name className,chinese,math,english from student;
     </select>
 
-    <select id="getScoreByName" resultType="cn.covn.homework_mybatis.pojo.vo.Score">
+    <select id="getScoreByName" resultType="cn.covn.homework_mybatis.model.pojo.vo.Score">
         select chinese,math,english from student where name=#{name};
     </select>
-    <select id="getScoreById" resultType="cn.covn.homework_mybatis.pojo.vo.Score">
+    <select id="getScoreById" resultType="cn.covn.homework_mybatis.model.pojo.vo.Score">
         select chinese,math,english from student where uid=#{id};
     </select>
 

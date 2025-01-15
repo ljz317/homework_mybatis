@@ -1,6 +1,4 @@
-package cn.covn.homework_mybatis.pojo.entity;
-
-import cn.covn.homework_mybatis.pojo.vo.Score;
+package cn.covn.homework_mybatis.model.pojo.entity;
 
 public class Student {
     private Integer id;

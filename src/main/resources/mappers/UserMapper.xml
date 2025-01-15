@@ -2,12 +2,12 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.covn.homework_mybatis.dao.UserDao">
-    <select id="GetAllUser" resultType="cn.covn.homework_mybatis.pojo.entity.User">
+<mapper namespace="cn.covn.homework_mybatis.repository.dao.UserDao">
+    <select id="GetAllUser" resultType="cn.covn.homework_mybatis.model.pojo.entity.User">
         select * from user;
     </select>
 
-    <select id="CheckUser" resultType="cn.covn.homework_mybatis.pojo.entity.User">
+    <select id="CheckUser" resultType="cn.covn.homework_mybatis.model.pojo.entity.User">
         select * from user where username=#{username} and password=#{password};
     </select>
     <select id="isHaveUserByUsername">

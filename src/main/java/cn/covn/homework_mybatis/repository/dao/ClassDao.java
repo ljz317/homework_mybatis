@@ -1,4 +1,4 @@
-package cn.covn.homework_mybatis.dao;
+package cn.covn.homework_mybatis.repository.dao;
 
 import org.apache.ibatis.annotations.Mapper;
 

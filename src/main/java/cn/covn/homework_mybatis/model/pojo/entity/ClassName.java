@@ -1,4 +1,4 @@
-package cn.covn.homework_mybatis.pojo.entity;
+package cn.covn.homework_mybatis.model.pojo.entity;
 
 public class ClassName {
     private Integer id;
