@@ -1,0 +1,9 @@
+JDK:17
+
+SpringBoot:3.4.1
+
+dependencies:
+	1.Mybatis    
+	2.MySQL Driver
+	3.mysql driver
+	4.mariadb-10.5.27-winx64

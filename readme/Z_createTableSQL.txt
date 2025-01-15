@@ -1,0 +1,30 @@
+
+create database schoolsystem;
+
+create table user(id int primary key auto_increment,username varchar(40),password varchar(40),ro
+le char(10) check(role='student' or role='teacher'));
+
+insert into user  values(null,'aoligei','aoligei','teacher');
+insert into user  values(null,'xuesheng','xuesheng','student');
+insert into user  values(null,'root','root','teacher');
+insert into user  values(null,'xuesheng2','xuesheng2','student');
+
+create table student (
+    id int primary key auto_increment,
+    uid int,
+    name varchar(20),
+    class varchar(10) not null,
+    chinese double,
+    math double,
+    english double);
+
+insert into student values(null,2,'xuesheng','c2302',98.0,97.0,96.0);
+insert into student values(null,4,'xuesheng2','c2301',58.0,67.0,76.0);
+
+create table teacher(id int primary key auto_increment,uid int, name varchar(20),salary double);
+insert into teacher values(null,1,'aoligei',2000.0);
+insert into teacher values(null,3,'root',4000.0);
+
+create table class(id int primary key auto_increment,tid int,class varchar(10) unique not null);
+insert into class(null,1,'c2301');
+insert into class(null,2,'c2302');
