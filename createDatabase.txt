@@ -26,5 +26,5 @@ insert into teacher values(null,1,'aoligei',2000.0);
 insert into teacher values(null,3,'root',4000.0);
 
 create table class(id int primary key auto_increment,tid int,class varchar(10) unique not null);
-insert into class(null,1,'c2301');
-insert into class(null,2,'c2302');
+insert into class values(null,1,'c2301');
+insert into class values(null,2,'c2302');
